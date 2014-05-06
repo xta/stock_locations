@@ -20,6 +20,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -73.989667,
+          40.741052
+        ]
+      },
+      "properties": {
+        "name": "Flatiron Building",
+        "address": "1 E 23rd St, New York, NY 10010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -73.977218,
           40.752726
         ]
