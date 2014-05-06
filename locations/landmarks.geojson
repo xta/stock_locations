@@ -18,6 +18,26 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -73.98972272872925,
+            40.70042247927178
+          ],
+          [
+            -74.00405645370483,
+            40.71182515719665
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Brooklyn Bridge",
+        "address": "Brooklyn Bridge, New York, NY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Point",
         "coordinates": [
           -73.975491,
