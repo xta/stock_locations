@@ -182,6 +182,20 @@
         "name": "High Line",
         "address": "New York, NY 10011"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958968,
+          40.782956
+        ]
+      },
+      "properties": {
+        "name": "Solomon R. Guggenheim Museum",
+        "address": "1071 5th Ave, New York, NY 10128"
+      }
     }
   ]
 }
