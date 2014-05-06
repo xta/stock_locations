@@ -188,6 +188,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -73.983492,
+          40.772462
+        ]
+      },
+      "properties": {
+        "name": "Lincoln Center for the Performing Arts",
+        "address": "10 Lincoln Center Plaza, New York, NY 10023"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -73.958968,
           40.782956
         ]
