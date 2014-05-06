@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975491,
+          40.751620
+        ]
+      },
+      "properties": {
+        "name": "Chrysler Building",
+        "address": "405 Lexington Ave, New York, NY 10174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985596,
+          40.748516
+        ]
+      },
+      "properties": {
+        "name": "Empire State Building",
+        "address": "350 5th Ave, New York, NY 10118"
+      }
+    }
+  ]
+}
