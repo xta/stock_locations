@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985596,
+          40.748516
+        ]
+      },
+      "properties": {
+        "name": "Empire State Building",
+        "address": "350 5th Ave, New York, NY 10118"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.977218,
+          40.752726
+        ]
+      },
+      "properties": {
+        "name": "Grand Central Terminal",
+        "address": "89 E 42nd St, New York, NY 10017"
+      }
+    }
+  ]
+}
