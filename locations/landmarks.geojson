@@ -6,6 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -73.97884368896484,
+          40.75881415324119
+        ]
+      },
+      "properties": {
+        "name": "30 Rockefeller Plaza",
+        "address": "30 Rockefeller Plaza, New York, NY 10112"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -73.985596,
           40.748516
         ]
