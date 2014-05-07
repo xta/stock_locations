@@ -1,0 +1,72 @@
+type: FeatureCollection
+features:
+
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -73.975491
+        - 40.75162
+    properties:
+      name: "Chrysler Building"
+      address: "405 Lexington Ave, New York, NY 10174"
+
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -73.985596
+        - 40.748516
+    properties:
+      name: "Empire State Building"
+      address: "350 5th Ave, New York, NY 10118"
+
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -73.97884368896484
+        - 40.75881415324119
+    properties:
+      name: "30 Rockefeller Plaza"
+      address: "30 Rockefeller Plaza, New York, NY 10112"
+
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -73.989667
+        - 40.741052
+    properties:
+      name: "Flatiron Building"
+      address: "1 E 23rd St, New York, NY 10010"
+
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -73.977218
+        - 40.752726
+    properties:
+      name: "Grand Central Terminal"
+      address: "89 E 42nd St, New York, NY 10017"
+
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -73.983492
+        - 40.772462
+    properties:
+      name: "Lincoln Center for the Performing Arts"
+      address: "10 Lincoln Center Plaza, New York, NY 10023"
+
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -73.958968
+        - 40.782956
+    properties:
+      name: "Solomon R. Guggenheim Museum"
+      address: "1071 5th Ave, New York, NY 10128"

@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+
+begin
+
+require_relative '../lib/locations'
+
+  input   = File.join(File.dirname(__FILE__), '..', 'src', 'landmarks.yml')
+  output  = File.join(File.dirname(__FILE__), '..', '..', 'locations', 'landmarks.geojson')
+
+  args = {
+    input: input,
+    output: output
+  }
+
+  transformer = Locations::Transformer.new(args)
+  transformer.write!
+
+  puts "Success! Built geojson file at #{output}"
+
+rescue => e
+  puts "Error: #{e}"
+end
