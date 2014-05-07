@@ -9,15 +9,20 @@ module Locations
       @output  = args[:output]
     end
 
-    def as_json
-      data = YAML::load_file(@input)
-      JSON.dump(data)
+    def loaded_data
+      YAML::load_file(@input)
     end
 
     def write!
       File.open(@output, "w") do |f|
-        f.write(as_json)
+        f.write(pretty_json)
       end
+    end
+
+    private
+
+    def pretty_json
+      JSON.pretty_generate(loaded_data)
     end
 
   end

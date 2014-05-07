@@ -14,8 +14,8 @@ describe Locations::Transformer do
     expect{Locations::Transformer.new(args)}.not_to raise_error
   end
 
-  it "transforms the input into the output format" do
-    expected_output = '{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.975491,40.75162]},"properties":{"name":"Chrysler Building","address":"405 Lexington Ave, New York, NY 10174"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.985596,40.748516]},"properties":{"name":"Empire State Building","address":"350 5th Ave, New York, NY 10118"}}]}'
+  it "loads the input data" do
+    expected_data = {"type"=>"FeatureCollection", "features"=>[{"type"=>"Feature", "geometry"=>{"type"=>"Point", "coordinates"=>[-73.975491, 40.75162]}, "properties"=>{"name"=>"Chrysler Building", "address"=>"405 Lexington Ave, New York, NY 10174"}}, {"type"=>"Feature", "geometry"=>{"type"=>"Point", "coordinates"=>[-73.985596, 40.748516]}, "properties"=>{"name"=>"Empire State Building", "address"=>"350 5th Ave, New York, NY 10118"}}]}
 
     args = {
       input: input,
@@ -23,7 +23,7 @@ describe Locations::Transformer do
     }
 
     t = Locations::Transformer.new(args)
-    expect(t.as_json).to eql expected_output
+    expect(t.loaded_data).to eql expected_data
   end
 
   it "writes the output at the specific location" do
