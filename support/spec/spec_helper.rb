@@ -1,1 +1,1 @@
-require_relative '../lib/transformer'
+require_relative '../lib/locations'
