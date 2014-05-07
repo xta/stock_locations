@@ -126,6 +126,20 @@
         "name": "Brooklyn Bridge",
         "address": "Brooklyn Bridge, New York, NY"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981902,
+          40.768103
+        ]
+      },
+      "properties": {
+        "name": "Columbus Circle",
+        "address": "1849 Broadway, New York, NY 10023"
+      }
     }
   ]
 }
