@@ -140,6 +140,20 @@
         "name": "Columbus Circle",
         "address": "1849 Broadway, New York, NY 10023"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.965344,
+          40.782849
+        ]
+      },
+      "properties": {
+        "name": "Central Park",
+        "address": "New York, NY 10024"
+      }
     }
   ]
 }
