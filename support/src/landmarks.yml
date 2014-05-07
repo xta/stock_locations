@@ -70,3 +70,35 @@ features:
     properties:
       name: "Solomon R. Guggenheim Museum"
       address: "1071 5th Ave, New York, NY 10128"
+
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -74.004757
+        - 40.747986
+    properties:
+      name: "High Line"
+      address: "New York, NY 10011"
+
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -73.996820
+        - 40.706092
+    properties:
+      name: "Brooklyn Bridge"
+      address: "Brooklyn Bridge, New York, NY"
+
+  # TEMPLATE
+
+  # - type: Feature
+  #   geometry:
+  #     type: Point
+  #     coordinates:
+  #       -
+  #       -
+  #   properties:
+  #     name: ""
+  #     address: ""
