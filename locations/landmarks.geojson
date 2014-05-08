@@ -196,6 +196,20 @@
         "name": "Washington Monument",
         "address": "2 15th St NW, Washington, DC 20007"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.635918,
+          41.878864
+        ]
+      },
+      "properties": {
+        "name": "Willis Tower",
+        "address": "233 S Wacker Dr, Chicago, IL 60606"
+      }
     }
   ]
 }
