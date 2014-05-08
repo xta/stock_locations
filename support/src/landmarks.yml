@@ -130,3 +130,13 @@ features:
     properties:
       name: Golden Gate Bridge
       address: Golden Gate Bridge, San Francisco, CA 94129
+
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -77.035237
+        - 38.889461
+    properties:
+      name: Washington Monument
+      address: 2 15th St NW, Washington, DC 20007
