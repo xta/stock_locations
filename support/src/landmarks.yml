@@ -170,3 +170,13 @@ features:
     properties:
       name: Hollywood Sign
       address: Hollywood, CA 90068
+
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -74.044505
+        - 40.689235
+    properties:
+      name: Statue of Liberty
+      address: Liberty Island, New York, NY 10004
