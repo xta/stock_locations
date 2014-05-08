@@ -120,3 +120,13 @@ features:
     properties:
       name: Cloud Gate
       address: 201 E Randolph St, Chicago, IL 60602
+
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -122.478553
+        - 37.820043
+    properties:
+      name: Golden Gate Bridge
+      address: Golden Gate Bridge, San Francisco, CA 94129
