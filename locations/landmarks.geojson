@@ -224,6 +224,20 @@
         "name": "Space Needle",
         "address": "400 Broad St, Seattle, WA 98109"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.32161,
+          34.134103
+        ]
+      },
+      "properties": {
+        "name": "Hollywood Sign",
+        "address": "Hollywood, CA 90068"
+      }
     }
   ]
 }
