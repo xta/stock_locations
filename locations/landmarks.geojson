@@ -154,6 +154,20 @@
         "name": "Central Park",
         "address": "New York, NY 10024"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.623291,
+          41.88269
+        ]
+      },
+      "properties": {
+        "name": "Cloud Gate",
+        "address": "201 E Randolph St, Chicago, IL 60602"
+      }
     }
   ]
 }

@@ -111,14 +111,12 @@ features:
       name: "Central Park"
       address: "New York, NY 10024"
 
-  # TEMPLATE
-
-  # - type: Feature
-  #   geometry:
-  #     type: Point
-  #     coordinates:
-  #       -
-  #       -
-  #   properties:
-  #     name: ""
-  #     address: ""
+  - type: Feature
+    geometry:
+      type: Point
+      coordinates:
+        - -87.623291
+        - 41.882690
+    properties:
+      name: Cloud Gate
+      address: 201 E Randolph St, Chicago, IL 60602
