@@ -210,6 +210,20 @@
         "name": "Willis Tower",
         "address": "233 S Wacker Dr, Chicago, IL 60606"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.349129,
+          47.620463
+        ]
+      },
+      "properties": {
+        "name": "Space Needle",
+        "address": "400 Broad St, Seattle, WA 98109"
+      }
     }
   ]
 }
