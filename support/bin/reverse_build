@@ -5,7 +5,7 @@ begin
 require_relative '../lib/locations'
 
   input   = File.join(File.dirname(__FILE__), '..', '..', 'locations', 'landmarks.geojson')
-  output  = File.join(File.dirname(__FILE__), '..', 'src', 'landmarksfoo.yml')
+  output  = File.join(File.dirname(__FILE__), '..', 'src', 'landmarks.yml')
 
   args = {
     input: input,
